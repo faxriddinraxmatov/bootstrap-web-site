@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="vendors/css/all.css">
+  <link rel="stylesheet" href="vendors/bootstrap.css" >
+  <link rel="stylesheet" href="css/style.css">
+  <title>Bootstrap Theme</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container">
+      <a href="index.html" class="navbar-brand">Glozzom</a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a href="services.html" class="nav-link">Services</a>
+          </li>
+          <li class="nav-item active">
+            <a href="blog.html" class="nav-link">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- MAIN -->
+  <div class="about-banner">
+    <div class="container text-center py-5 text-white">
+      <h1>Read Our Blog</h1>
+      <p>Lorem ipsum dolor sit amet consectetur. <br> adipisicing elit. Nulla, vero.</p>
+    </div>
+  </div>
+
+  <div class="services-section my-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card mb-3">
+              <img class="card-img-top" src="./img/image1.jpg" alt="">
+              <div class="card-body">
+                <h4 class="card-title">Blog Post One</h4>
+                <span class="text-muted">Written by Jeff on 5/20</span>
+                <hr>
+                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae sed nulla consequatur ipsa nam nobis quidem fugiat ratione voluptates harum quam unde delectus, aspernatur totam similique quod autem! Illum, doloribus.</p>
+              </div>
+            </div>
+            <div class="card p-2">
+              <blockquote class="blockquote mb-0 card-body">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                <i class="fas fa-minus" style="font-size: 17px"> <span class="text-muted"> Someone Famous in Source Title </span> </i>
+              </blockquote>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-3">
+              <img class="card-img-top" src="./img/image2.jpg" alt="">
+                <div class="card-body">
+                  <h4 class="card-title">Blog Post Two</h4>
+                  <span class="text-muted">Written by John on 5/25</span>
+                  <hr>
+                  <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae sed nulla consequatur ipsa nam nobis quidem fugiat ratione voluptates harum quam unde delectus, aspernatur totam similique quod autem! Illum, doloribus.</p>
+                </div>
+            </div>
+            <div class="card p-2 bg-danger">
+              <blockquote class="blockquote mb-0 card-body text-white">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                <i class="fas fa-minus" style="font-size: 17px"> <span> Someone Famous in Source Title </span> </i>
+              </blockquote>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-3">
+              <img class="card-img-top" src="./img/image3.jpg" alt="">
+                <div class="card-body">
+                  <h4 class="card-title">Blog Post Three</h4>
+                  <span class="text-muted">Written by Harry on 5/23</span>
+                  <hr>
+                  <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae sed nulla consequatur ipsa nam nobis quidem fugiat ratione voluptates harum quam unde delectus, aspernatur totam similique quod autem! Illum, doloribus.</p>
+              </div>
+            </div>
+            <div class="card p-2">
+              <blockquote class="blockquote mb-0 card-body">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                <i class="fas fa-minus" style="font-size: 17px"> <span class="text-muted"> Someone Famous in Source Title </span> </i>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  
+
+  <!-- FOOTER -->
+  <footer id="main-footer" class="text-center p-4">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <p>Copyright &copy;
+            <span id="year"></span> Glozzom</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="vendors/js/jquery.js"></script>
+  <script src="vendors/js/popper.js"></script>
+  <script src="vendors/js/bootstrap.js"></script>
+
+  <script>
+    // Get the current year for the copyright
+    $('#year').text(new Date().getFullYear());
+
+  </script>
+</body>
+
+</html>
